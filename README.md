@@ -4,7 +4,12 @@ Git Commands
 
 _A list of my commonly used Git commands_
 
---
+### Config git repo
+
+| Command | Description |
+| ------- | ----------- |
+| `git config --global user.name 'username'` | Initialize a username Git terminal |
+| `git config --global user.email 'user@email.com'` | Initialize a email Git terminal |
 
 ### Getting & Creating Projects
 
