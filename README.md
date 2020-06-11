@@ -69,3 +69,15 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Remove files from the tree
+| Command | Description |
+| ------- | ----------- |
+| `git rm --cached <file-name>` | removes file |
+| `git rm -r --cached directory/` | removes folder|
+
+### Remove files from the staging area 
+| Command | Description |
+| ------- | ----------- |
+| `git reset HEAD file` | removes specific file |
+| `git reset HEAD .` | removes everything |
