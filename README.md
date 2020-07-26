@@ -17,6 +17,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git clone ssh://username:password@git@github.com/[username]/[repository-name].git` | Create a local copy of a remote private repository |
 
 ### Basic Snapshotting
 
@@ -54,6 +55,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push  https://username:password@github.com/sdadaev/Free_Common_Utilities_project.git --all` | Push changes to remote private repository  |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
